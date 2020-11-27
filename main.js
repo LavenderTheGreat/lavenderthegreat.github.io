@@ -37,3 +37,16 @@ document.documentElement.style.setProperty('--tile', "url('themes/" + variants[v
 document.documentElement.style.setProperty('--icon', "url('themes/" + variants[variant].id + "icon.png");
 
 document.getElementById("source").setAttribute("href", variants[variant].source)
+
+// Browser check
+
+if (window.chrome) {
+    console.log("Chrome fallback css.")
+
+    var link = document.createElement( "link" );
+    link.href = "chrome.css";
+    link.type = "text/css";
+    link.rel = "stylesheet";
+
+    document.getElementsByTagName( "head" )[0].appendChild( link );
+}

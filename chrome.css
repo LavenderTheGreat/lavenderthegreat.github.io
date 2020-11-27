@@ -1,0 +1,49 @@
+.stroke-font{
+    -webkit-text-stroke-width: 0px;
+    --outline: var(--pal3);
+    text-shadow: 
+          1px  1px 0px var(--outline),
+          0px  1px 0px var(--outline),
+         -1px  1px 0px var(--outline),
+          1px  0px 0px var(--outline),
+          0px  0px 0px var(--outline),
+         -1px  0px 0px var(--outline),
+          1px -1px 0px var(--outline),
+          0px -1px 0px var(--outline),
+         -1px -1px 0px var(--outline),
+         
+          2px  2px 0px var(--outline),
+          0px  2px 0px var(--outline),
+         -2px  2px 0px var(--outline),
+          2px  0px 0px var(--outline),
+          0px  0px 0px var(--outline),
+         -2px  0px 0px var(--outline),
+          2px -2px 0px var(--outline),
+          0px -2px 0px var(--outline),
+         -2px -2px 0px var(--outline),
+
+          3px  3px 0px var(--outline),
+          0px  3px 0px var(--outline),
+         -3px  3px 0px var(--outline),
+          3px  0px 0px var(--outline),
+          0px  0px 0px var(--outline),
+         -3px  0px 0px var(--outline),
+          3px -3px 0px var(--outline),
+          0px -3px 0px var(--outline),
+         -3px -3px 0px var(--outline);
+}
+
+.button:hover{
+    --outline: var(--pal0);
+    -webkit-text-stroke-width: 0px;
+}
+
+
+.button{
+    -webkit-text-stroke-width: 0px;
+}
+
+.footer {
+    -webkit-text-stroke-width: 0px;
+    text-shadow: initial;
+}

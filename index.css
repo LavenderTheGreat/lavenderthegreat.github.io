@@ -16,9 +16,9 @@
 :root{
     --tilesize: 128px;
     --pal0: #3e2653;
-    --pal1: #f99c67;
-    --pal2: #a5e5ce;
-    --pal3: #EBE5CE;
+    --pal1: #ff4f69;
+    --pal2: #cc3266;
+    --pal3: #fff7f8;
     --tile: url("themes/etnatile.png");
     --icon: url("themes/etnaicon.png")
 }
