@@ -132,7 +132,7 @@ body{
 
 .body-text{
     text-align: center;
-    max-width: 750px;
+    width: min(750px, 100%);
     font-size: 25px;
     font-family: 'Vlaander';
     padding-bottom: 50px;
@@ -198,6 +198,16 @@ a {
 
 .link:hover{
     color: var(--pal1);
+    transition: 0s;
+}
+
+#article a{
+    color: var(--pal1);
+    transition: 0.25s ease;
+}
+
+#article a:hover{
+    color: var(--pal2);
     transition: 0s;
 }
 

@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    width: 100%
+}
+
+.circle {
+    width: 45vw;
+    max-width:250px;
+    height: 45vw;
+    max-height:250px;
+}
+
+.stroke-font{
+    font-size: min(10.8vw, 60px);
+}
+
+.body-text{
+    text-align: center;
+    width: min(850px, 90vw);
+    font-size: 23px;
+    font-family: 'Vlaander';
+    padding-bottom: 50px;
+}
+
+.footer {
+    color: var(--pal3);
+    -webkit-text-stroke-color: var(--pal0);
+    font-size: 20px;
+    -webkit-text-stroke-width: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--pal0);
+}
+
+.article{
+    text-align: left;
+    width: 100%;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: inherit
+}
+
+h3, h4, h5 {
+    font-weight: inherit
+}
+
+h5 {
+    font-size: 18px
+}
