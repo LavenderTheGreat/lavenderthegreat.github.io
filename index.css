@@ -61,8 +61,10 @@ body{
 .circle{
     display: inline-block;
     border-radius: 50%;
-    width:500px;
-    height:500px;
+    width: 90vw;
+    max-width:500px;
+    height: 90vw;
+    max-height:500px;
     border: 10px solid var(--pal0);
     /* margin-top: calc(50vh - 260px); */
 
@@ -78,7 +80,7 @@ body{
 
 .stroke-font{
     font-family: 'AirStream';
-    font-size: 120px;
+    font-size: min(21.6vw, 120px);
     color: var(--pal0);
 
     -webkit-text-stroke-width: 10px;
@@ -114,7 +116,9 @@ body{
 .absolute-fill{
     position: absolute;
     top: 0px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     width: 100%;
     min-height: 100%
 }
