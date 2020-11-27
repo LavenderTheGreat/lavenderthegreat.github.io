@@ -4,7 +4,7 @@
 
 ## ◆ The Situation ◆
 
-![No signature!](./md/res/nosig.png)
+![No signature!](../md/res/nosig.png)
 
 ##### *Oh no! There's no signature to be seen anywhere and it's compressed to hell! Or wait, is there a way to find who made it? (hint: it's me!)*
 
@@ -23,7 +23,7 @@ These are the most common ones and have the most solutions to finding the source
 
 #### ◆ 1 - SauceNao ◆
 
-![SauceNao](./md/res/sauce.png)
+![SauceNao](../md/res/sauce.png)
 
 SauceNao primarily indexes booru style sites and some other common ones like DeviantArt and lightly, Pixiv. Under advanced options you can link to an image instead.
 
@@ -33,7 +33,7 @@ Link: [SauceNao](https://saucenao.com/)
 
 #### ◆ 2 - Reverse Image Search Engines ◆
 
-![Google Reverse Image Search](./md/res/google.png)
+![Google Reverse Image Search](../md/res/google.png)
 
 ##### *Here it actually comes up with only my retweets, not even the booru version that I used!*
 
@@ -45,7 +45,7 @@ Links: [Google](https://images.google.com/) , [TinEye](https://tineye.com/)
 
 #### ◆ 3 - Booru searches ◆
 
-![e926](./md/res/e9.png)
+![e926](../md/res/e9.png)
 
 ##### *This is e926 for those curious.*
 

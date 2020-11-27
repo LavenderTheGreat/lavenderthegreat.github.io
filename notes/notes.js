@@ -38,4 +38,4 @@ async function loadFile(name){
 const url = new URL(window.location.href)
 let args = url.searchParams
 
-loadFile("./md/" + args.get("a") + ".md")
+loadFile("../md/" + args.get("a") + ".md")
