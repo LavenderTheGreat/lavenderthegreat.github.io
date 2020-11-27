@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Vlaander';
+    src: url('./VLAANDER.OTF'); 
+}
+
+@font-face {
+    font-family: 'StonyIsland';
+    src: url('./STONIN__.TTF'); 
+}
+
+@font-face {
+    font-family: 'AirStream';
+    src: url('./AIRSTREA.OTF'); 
+}
+
+:root{
+    --tilesize: 128px;
+    --pal0: #3e2653;
+    --pal1: #f99c67;
+    --pal2: #a5e5ce;
+    --pal3: #EBE5CE;
+    --tile: url("themes/etnatile.png");
+    --icon: url("themes/etnaicon.png")
+}
+
+@keyframes scroll{
+    from {background-position: 0px 0px;}
+    to {background-position: var(--tilesize) var(--tilesize);}
+}
+
+.container{
+    width:100%;
+    height:100%
+}
+
+body{
+    background-color: var(--pal3);
+    min-width: 100%;
+    min-height: 100%;
+    height: min-content;
+    padding: 50px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+    background-image: var(--tile);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    animation: scroll 8s infinite;
+    animation-timing-function: linear;
+    background-size: var(--tilesize);
+
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width:500px;
+    height:500px;
+    border: 10px solid var(--pal0);
+    /* margin-top: calc(50vh - 260px); */
+
+    background-image: var(--tile);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    animation: scroll 8s infinite;
+    animation-timing-function: linear;
+    background-size: var(--tilesize);
+
+    overflow: hidden;
+}
+
+.stroke-font{
+    font-family: 'AirStream';
+    font-size: 120px;
+    color: var(--pal0);
+
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: var(--pal3);
+    paint-order: stroke;
+}
+
+.center-children{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.circle-content{
+    text-align: left;
+    transform: rotate(-10deg);
+    line-height: 0.7
+}
+
+.icon{
+    background-image: var(--icon);
+    background-size: cover;
+}
+
+.relative-fill{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+
+.absolute-fill{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 100%
+}
+
+.brighten{
+    background-color: var(--pal3);
+    opacity: 0.8;
+    z-index: -6;
+    position:fixed
+}
+
+.body-text{
+    text-align: center;
+    max-width: 750px;
+    font-size: 25px;
+    font-family: 'Vlaander';
+    padding-bottom: 50px;
+}
+
+.body-text h1{
+    font-size: 35px;
+    font-family: 'StonyIsland';
+}
+
+.body-text .sub{
+    font-size: 17.5px
+}
+
+.button{
+    color: var(--pal0);
+    width: -moz-fit-content;
+    width: fit-content;
+    display: inline-block;
+    transition: 0.25s ease;
+    vertical-align: middle;
+}
+
+.button:hover{
+    color: var(--pal1);
+    -webkit-text-stroke-color: var(--pal0);
+    transition: 0s;
+}
+
+.rotate-1{
+    transform: rotate(0deg);
+}
+
+.rotate-1:hover{
+    transform: rotate(10deg) scale(1.2);
+}
+
+.rotate-2:hover{
+    transform: rotate(-10deg) scale(1.2);
+}
+
+.rotate-3:hover{
+    transform: rotate(-5deg) scale(1.2);
+}
+
+html {
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: var(--pal1) var(--pal3);
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.link{
+    color: var(--pal3);
+    transition: 0.25s ease;
+}
+
+.link:hover{
+    color: var(--pal1);
+    transition: 0s;
+}
+
+.footer {
+    color: var(--pal3);
+    -webkit-text-stroke-color: var(--pal0);
+    font-size: 20px;
+    -webkit-text-stroke-width: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--pal0);
+}
