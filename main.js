@@ -22,6 +22,14 @@ const variants = [
         "accent2":"#a5e5ce",
         "outline":"#3e2653",
         "source":"https://twitter.com/LavenderTGreat/status/1330689512272498690/"
+    },
+    {
+        "id":"chrys",
+        "bg":"#ffffff",
+        "accent":"#4cf3be",
+        "accent2":"#bb4a87",
+        "outline":"#2e3037",
+        "source":"https://twitter.com/LavenderTGreat/status/1330689512272498690/"
     }
 ]
 
