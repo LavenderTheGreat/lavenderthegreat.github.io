@@ -29,7 +29,7 @@ const variants = [
         "accent":"#4cf3be",
         "accent2":"#bb4a87",
         "outline":"#2e3037",
-        "source":"https://twitter.com/LavenderTGreat/status/1330689512272498690/"
+        "source":"https://twitter.com/LavenderTGreat/status/1353502933845946368/"
     }
 ]
 
