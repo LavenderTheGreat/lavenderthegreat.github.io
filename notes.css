@@ -34,18 +34,25 @@ h1{
 
 .article{
     text-align: left;
-    width: 100%;
 }
 
 h2 {
+    text-align: center;
     font-size: 35px;
     font-weight: inherit
 }
 
 h3, h4, h5 {
+    text-align: center;
     font-weight: inherit
 }
 
 h5 {
     font-size: 18px
+}
+
+img{
+    display: inline-block;
+    text-align: center;
+
 }
